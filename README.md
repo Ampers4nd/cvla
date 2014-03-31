@@ -1,0 +1,4 @@
+cvla
+====
+
+Computer vision musings
