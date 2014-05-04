@@ -43,7 +43,7 @@ def calculate_score(Ix, Iy):
     IxxIyy = Ixx * Iyy
     Ixy = Ix*Iy
     IxyIxy = Ixy*Ixy
-    traA = IxxIyy
+    traA = Ixx + Iyy
     detA = IxxIyy - IxyIxy
     eps = np.array( [0.1], dtype=np.float32 )
     Iscore = detA / (traA+eps)
