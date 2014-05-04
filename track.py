@@ -1,4 +1,4 @@
-__author__ = 'john'
+__author__ = 'john k. grant'
 
 
 from scipy import ndimage
